@@ -164,6 +164,7 @@ const MessageExchange = props => {
           />
           <button
             className="button-link send-message-button"
+            aria-label="Send"
             onClick={props.onSubmit}
             disabled={
               props.value == "" ||
